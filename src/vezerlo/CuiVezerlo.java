@@ -1,13 +1,13 @@
 package vezerlo;
 
 import modell.JatekModell;
-import nezet.KonzolNezet;
+import nezet.CuiNezet;
 
-public class KonzolVezerlo {
+public class CuiVezerlo {
     private JatekModell modell;
-    private KonzolNezet nezet;
+    private CuiNezet nezet;
 
-    public KonzolVezerlo(JatekModell modell, KonzolNezet nezet) {
+    public CuiVezerlo(JatekModell modell, CuiNezet nezet) {
         this.modell = modell;
         this.nezet = nezet;
         
